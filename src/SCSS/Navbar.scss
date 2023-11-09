@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&family=Roboto&family=Ubuntu&display=swap");
+
+/* global variables */
+:root {
+  /* fonts */
+  --font-family-Roboto: "Roboto", sans-serif;
+  --font-family-Ubuntu: "Ubuntu", sans-serif;
+  --font-family-Dela: "Dela Gothic One", sans-serif;
+  --font-family-Montserrat: "Montserrat", sans-serif;
+
+  /* colors */
+  --Text-Color-Blue: #29abe2;
+  --Text-Color-Orange: #f29222;
+  --Text-Color-Gray: #333333;
+  --Text-Color-Black: #000000;
+}
+
+* {
+  font-family: var(--font-family-Montserrat);
+
+  // ::-webkit-scrollbar {
+  //   width: 10px;
+  // }
+
+  // ::-webkit-scrollbar-thumb {
+  //   background: #333;
+  // }
+
+  // /* Handle on hover */
+  // ::-webkit-scrollbar-thumb:hover {
+  //   background: #666;
+  // }
+
+  // ::-webkit-scrollbar-track {
+  //   background: #000;
+  // }
+}
+
+.nav__container {
+  background-color: transparent;
+  font-weight: 700;
+  gap: 30px;
+
+  .nav__link {
+    color: #fff;
+  }
+
+  .nav__link:hover {
+    color: #29abe2;
+  }
+}

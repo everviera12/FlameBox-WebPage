@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#F29222" fill-opacity="1"
+    d="M0,288L60,261.3C120,235,240,181,360,144C480,107,600,85,720,90.7C840,96,960,128,1080,138.7C1200,149,1320,139,1380,133.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+</svg>
+
+<!-- 
+<svg class="border shadow-md" viewBox="0 0 1081.52 540.76" xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="none" style="width: 1081.52px; height: 540.76px;">
+  <rect class="bg" id="bg" x="0" y="0" width="1081.52" height="540.76" fill="#ffffff"></rect>
+  <rect x="-108.15199999999999" y="270.38" width="2163.04" height="2163.04"
+    transform="rotate(270 973.3679999999999 1351.9)" fill="#F29222" stroke="none" stroke-width="10"></rect>
+</svg> -->

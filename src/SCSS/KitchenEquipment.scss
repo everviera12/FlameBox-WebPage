@@ -1,0 +1,78 @@
+// Select Equipment
+.select__equipment {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-image: url("https://images.ctfassets.net/gv39uqh7mgv8/2Zsq63Sj6XVWXdGQ03GMye/cd20f56d04038b31c2b44966c2aa5944/4793947a378529920fa6515d1919743d.jpg");
+  background-position: center;
+  background-size: cover;
+
+  .buttons {
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+
+    button {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+// Kitchen Equipment
+.kitchen__equipment {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+  h3:first-child {
+    font-size: 2.5rem;
+  }
+
+  span {
+    font-size: 1.25rem;
+  }
+
+  .items {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .img__container {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// Trailer Filter
+.trailer__filter {
+  position: absolute;
+  top: 200%;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .trailer__filter__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+// Equipment Filter
+.equipment__filter {
+  position: absolute;
+  top: 300%;
+  background-color: lightblue;
+  margin-top: 2%;
+  width: 100%;
+  height: 100%;
+}
