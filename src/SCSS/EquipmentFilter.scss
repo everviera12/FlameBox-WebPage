@@ -1,5 +1,12 @@
 .equipment__container {
-  .mySwiper { 
+  h1::after {
+    content: "";
+    display: block;
+    border: 2px solid #000000e2;
+    border-radius: 10px;
+  }
+
+  .mySwiper {
     width: 70%;
     padding: 10px 25px;
     margin-top: 4%;
@@ -32,11 +39,13 @@
     margin-top: 5%;
 
     .list__filter {
-      padding: 5px;
+      padding: 5px 10px;
       max-width: calc(30% - 10px);
       margin: 1%;
       transition: all 0.3s;
       justify-content: center;
+      border: 1px solid #000;
+      border-radius: 5px;
     }
   }
 }

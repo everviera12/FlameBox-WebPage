@@ -1,9 +1,20 @@
 // components
 import TrailerFilter from "./components/TrailerFilter";
 import EquipmentFilter from "./components/EquipmentFilter";
+import { Form } from "./components/Form";
 
 // styles
 import "./SCSS/KitchenEquipment.scss";
+
+// toma el ID del elemento como argumento.
+const scrollToElement = (elementId) => {
+  const element = document.getElementById(elementId); //tomamos el elemento ID del documento
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+  }
+};
 
 export const KitchenEquipment = () => {
   return (
@@ -13,8 +24,16 @@ export const KitchenEquipment = () => {
           <h1>ALL YOU NEED IS THE PERFECT KITCHEN</h1>
 
           <div className="buttons mt-4">
-            <button className="btn btn-primary p-2">CHECK ALL EQUIPMENT</button>
-            <button className="btn btn-outline-primary text-white p-2">
+            <button
+              className="btn btn-primary p-2"
+              onClick={() => scrollToElement("equipmentTrailers")}
+            >
+              CHECK ALL EQUIPMENT
+            </button>
+            <button
+              className="btn btn-outline-primary text-white p-2"
+              onClick={() => scrollToElement("equipmentFilter")}
+            >
               HELP ME TO SET MY KITCHEN
             </button>
           </div>
@@ -65,15 +84,24 @@ export const KitchenEquipment = () => {
         </div>
       </div>
 
-      <div className="trailer__filter d-flex ">
+      <div className="trailer__filter d-flex" id="equipmentFilter">
         <div className="container trailer__filter__container">
           <TrailerFilter />
         </div>
       </div>
 
-      <div className="equipment__filter d-flex">
+      <div
+        className="equipment__filter d-flex flex-column"
+        id="equipmentTrailers"
+      >
         <div className="container equipment__filter__container">
           <EquipmentFilter />
+        </div>
+
+        <div className="kitchen__equipment__form d-flex">
+          <div className="container form__container">
+            <Form />
+          </div>
         </div>
       </div>
     </>

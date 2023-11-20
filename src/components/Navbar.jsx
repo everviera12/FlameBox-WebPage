@@ -3,11 +3,11 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 // react router
 import { Route, Link, Routes } from "react-router-dom";
 // modal
-import { ModalForm } from "./ModalForm";
+import {ModalForm} from "./ModalForm";
 
 // components
 import { Home } from "../Home";
-import {KitchenEquipment} from "../KitchenEquipment";
+import { KitchenEquipment } from "../KitchenEquipment";
 
 // styles css
 import "../SCSS/Navbar.scss";
